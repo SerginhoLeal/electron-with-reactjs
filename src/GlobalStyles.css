@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #282c34;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+.headerButtomCLose{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.headerButtomCLose:hover{
+  background: #094924aa;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+/***************** - Texto Global - **********************/
+.fontGlobal{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: aliceblue;
+  text-decoration: none;
+  cursor: default;
+}
+
+.texto{
+  font-size: 15px;
+}
+
+.title{
+  font-size: 18px;
+}
+/***************** - Texto Global - **********************/
+
+
+/***************** - ScrollBar - **********************/
+
+::-webkit-scrollbar-track {
+  background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+  background: #dad7d7;
+}
+
+/***************** - ScrollBar - **********************/

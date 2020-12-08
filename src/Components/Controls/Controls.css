@@ -1,0 +1,27 @@
+.configHidden{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.buttonsActions{
+    display: flex;
+    justify-content: space-around;
+}
+
+.scrollbuttonsActions{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+.itensVideo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.styleVolume{
+    display: flex;
+    align-items: center;
+}

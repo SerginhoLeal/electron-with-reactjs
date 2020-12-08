@@ -6,6 +6,8 @@ function createWindow () {
   const win = new BrowserWindow({
     width: 800,
     height: 600,
+    minWidth:500,
+    minHeight: 400,
     webPreferences: {
       nodeIntegration: true
     }
@@ -13,7 +15,8 @@ function createWindow () {
 
   win.loadURL( isDev ? "http://localhost:3000": `file://${path.json(__dirname, '../build/index.html')}`)
 
-  win.on("closed", () => (win = null));
+  // win.on("closed", () => (win = null));
+  // win.setMenu(null)
 }
 
 app.whenReady().then(createWindow)

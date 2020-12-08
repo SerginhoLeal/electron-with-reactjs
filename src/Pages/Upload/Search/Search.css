@@ -1,0 +1,75 @@
+.bodySearch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxSearch{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.createNewFolder{
+  position: relative;
+  display: flex;
+}
+
+.inputSearch{
+  border: 0px solid #fff;
+  border-radius: 5px;
+  outline: none;
+  background-color: #000000aa;
+  padding: 10px 5px;
+  font-size: 1.1rem;
+  transition: .3s;
+  color: #fff;
+}
+
+.faSearch{
+  position: absolute;
+  right: -50px;
+  padding: 0px;
+  font-size: 0px;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 25px;
+  background-color: #70A4D3;
+}
+
+.show{
+  display: flex;
+  padding: 10px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+/************* Button ****************/
+.buttonSearch{
+  padding: 9px 25px;
+  background-color: #5158DD;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  outline: none;
+}
+
+.buttonSearch:hover{
+  background-color: rgba(0, 136, 169, 0.8);
+}
+/************* Button ****************/
+
+.preView{
+  display: flex;
+  flex-direction: column;
+}
+
+.preViewImage{
+  margin: 10px;
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+}

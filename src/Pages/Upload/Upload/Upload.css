@@ -1,0 +1,95 @@
+.bodyUplaod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 90vh;
+}
+
+.allPreView{
+    margin: 5px;
+    display: flex;
+}
+
+.fileUpload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 300px;
+    background-color: dimgray;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 0px black;
+    transition: 0.2s;
+}
+
+.fileUpload:hover{
+    transition: 0.2s;
+    box-shadow: 0px 2px 2px 2px black;
+}
+
+.addInfoPreview{
+    margin: 5px;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputAdd{
+    border: 1px solid #fff;
+    border-radius: 2px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    outline: none;
+    background-color: rgba(230, 230, 230, 0.6);
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+
+.createNewFolder{
+    position: relative;
+    display: flex;
+}
+
+.faFolderPlus{
+    position: absolute;
+    right: -50px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.faFolderPlus:hover{
+    background-color: #ffffffaa;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+
+.PreViewButton{
+    border-radius: 5px;
+    padding: 0px 15px;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    background-color: #5158DD;
+}
+
+/**/
+
+.openModal{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #6a5acd;
+}
